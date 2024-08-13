@@ -13,5 +13,5 @@ struct InteractiveUIApp: App {
     }
 }
 #Preview {
-    InteractiveUIApp()
+    InteractiveUIApp() as! any View
 }
